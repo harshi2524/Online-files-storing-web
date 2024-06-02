@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="displayUserDetails()">
+    <div class="logout-container">
+        <button onclick="logout()"><i class="fas fa-sign-out-alt"></i> Logout</button>
+    </div>
+    <div class="container">
+        <div class="greeting">
+            <h1 id="greetingText"></h1>
+        </div>
+        <div class="buttons">
+            <button onclick="location.href='upload.html'"><i class="fas fa-cloud-upload-alt"></i> Upload Documents</button>
+            <button onclick="location.href='download.html'"><i class="fas fa-cloud-download-alt"></i> Download Documents</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
